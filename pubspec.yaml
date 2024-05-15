@@ -1,6 +1,6 @@
 name: sliver_grid_view
 description: "a group grid view, you can set the whole gird-view's header and footer, can set section's header and footer,support click section and scroll to the top, you can set different grid delegate for each section "
-version: 0.0.1
+version: 0.0.2
 homepage: 'https://github.com/YulncBd/sliver_grid_view.git'
 
 environment:
