@@ -1,6 +1,6 @@
 name: sliver_grid_view
 description: "you can set gird-view's header and footer, section's header and footer,and different grid delegate for each section "
-version: 0.0.2
+version: 0.0.3
 homepage: 'https://github.com/YulncBd/sliver_grid_view.git'
 
 environment:
