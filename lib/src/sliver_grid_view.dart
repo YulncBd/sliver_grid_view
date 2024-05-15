@@ -222,7 +222,10 @@ class _SliverGridViewState extends State<SliverGridView> {
       Offset offset =
           (renderBox as RenderConstrainedBox).localToGlobal(Offset.zero);
       widget.controller?.animateTo(
-          offset.dy - widget.navigationBarHeight - widget.persistentHeaderMinHeight + widget.controller!.offset,
+          offset.dy -
+              widget.navigationBarHeight -
+              widget.persistentHeaderMinHeight +
+              widget.controller!.offset,
           duration: widget.scrollDuration ?? const Duration(milliseconds: 500),
           curve: Curves.easeInOut);
     }
